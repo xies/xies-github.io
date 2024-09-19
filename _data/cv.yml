@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Shicong Xie
+      value: Shicong (Mimi) Xie
     - name: Languages
       value: English, Mandarin, Japanese
 
@@ -33,7 +33,20 @@
       description:
         - Department of Biology
         - Jan Skotheim lab
+        contents:
         - title: Mechanisms of mammalian cell size homeostasis in vivo.
+    - title: Graduate student researcher
+      institution: Massachusetts Institute of Technology
+      year: 2010-2016
+      description:
+        - Computational and Systems Biology PhD program
+        - Adam Martin lab
+    - title: Janelia undergraduate scholar
+      institution: Janelia Research Campus
+      year: 2009
+      description:
+        - Harald Hess group
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -50,6 +63,9 @@
     - year: 2018
       items:
         - National Insitute of Health, NIGMS, F32 Kirschstein-NRSA postdoctoral fellowship
+    - year: 2006-2009
+      items:
+        - Dean's Honor List, UC Berkeley
 
 - title: Academic Interests
   type: nested_list
@@ -66,4 +82,5 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Art:</u> Ink drawings, watercolor illustration, watercolor painting
+    - <u>Writing:</u> Poetry, short stories
