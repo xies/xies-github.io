@@ -31,21 +31,20 @@
       institution: Stanford University
       year: 2016-2024
       description:
-        - Department of Biology
-        - Jan Skotheim lab
-        contents:
-        - title: Mechanisms of mammalian cell size homeostasis in vivo.
+        - Department of Biology, Jan Skotheim lab
+        - Mechanisms of mammalian cell size homeostasis in vivo.
     - title: Graduate student researcher
       institution: Massachusetts Institute of Technology
       year: 2010-2016
       description:
-        - Computational and Systems Biology PhD program
-        - Adam Martin lab
+        - Computational and Systems Biology PhD program, Adam Martin lab
+        - Coordinated force-generation between mechanically coupled epithelial cells drives tissue folding
     - title: Janelia undergraduate scholar
       institution: Janelia Research Campus
       year: 2009
       description:
         - Harald Hess group
+        - Automated image focus and calibration for the interferometry PALM microscope prototype
 
 - title: Honors and Awards
   type: time_table
