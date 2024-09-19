@@ -9,15 +9,17 @@ related_publications: true
 ---
 
 The mouse replaces almost all the cells in the skin of its paws every week.
-This replacement is mostly driven by the proliferation of the resident
-skin stem cells. Despite this continual growth and division cycle, skin stem cells
-are remarkably stable in size throughout the life the mouse.
+Skin stem cells continually proliferate to generate these new skin cells.
+Despite undergoing constant cycles growth and division, these stem cells
+maintain very uniform and stable size distribution over the life of the mouse,
+suggesting that they 'remember' big they are supposed to be from cycle to cycle.
 
-How do these skin stem cells 'know' how big they are supposed to be?
-How is this 'target size' encoded in the molecular constituents of the cell? Is this
-'target size' autonomously calculated by individual cells, or is it a phenomena
-that emerges from cells interacting with each other?
+How is this 'target size' encoded by the molecular constituents of the cell?
+Is this 'target size' autonomously calculated by individual cells, or is it a
+phenomena that emerges from cells interacting with each other in the tissue?
+Can we change this 'target size'?
 
+My postdoctoral work was motivated by these questions.
 
     ---
     layout: page
