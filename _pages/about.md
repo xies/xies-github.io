@@ -9,8 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Bass Biology</p>
-    <p>327 Campus Drive</p>
+    <p>postdoc @ skotheim lab</p>
+    <p>Department of biology</p>
+    <p>Stanford University</p>
     <p>Stanford, CA 94305</p>
 
 news: true # includes a list of news items
