@@ -1,8 +1,7 @@
 ---
 layout: post
-title: My paper showing that cell size homeostasis is autonomous is out on bioRxiv!
 date: 2024-05-01 16:11:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
