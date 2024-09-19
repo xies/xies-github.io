@@ -6,7 +6,7 @@ subtitle: postdoc @ <a href='#'>skotheim lab</a>. biology, stanford university.
 
 profile:
   align: right
-  image: headshot.png
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
