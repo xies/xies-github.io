@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cell-autonomous size homeostasis in mammals
-description: with background image
+description: cell cycle and cell growth in adult mouse skin stem cells
 img: assets/img/skin_slice_through.gif
 importance: 1
 category: work
