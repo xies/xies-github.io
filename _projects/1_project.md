@@ -1,18 +1,23 @@
 ---
 layout: page
-title: Cell-autonomous size homeostasis is the dominant cell cycle control mechanism \em{in vivo}
+title: Cell-autonomous size homeostasis in mammals
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/skin_slice_through.gif
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The mouse replaces almost all the cells in the skin of its paws every week.
+This replacement is mostly driven by the proliferation of the resident
+skin stem cells. Despite this continual growth and division cycle, skin stem cells
+are remarkably stable in size throughout the life the mouse.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+How do these skin stem cells 'know' how big they are supposed to be?
+How is this 'target size' encoded in the molecular constituents of the cell? Is this
+'target size' autonomously calculated by individual cells, or is it a phenomena
+that emerges from cells interacting with each other?
+
 
     ---
     layout: page
