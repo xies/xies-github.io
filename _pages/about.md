@@ -9,10 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>postdoc @ skotheim lab</p>
-    <p>Department of biology</p>
-    <p>Stanford University</p>
-    <p>Stanford, CA 94305</p>
+    <p>shicong (mimi) xie, phd</p>
+    <p>skotheim lab @ biology</p>
+    <p>stanford university</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -28,8 +27,7 @@ days and weeks.
 Currently, I am a postdoc in the lab of Jan Skotheim at Stanford University,
 in the Department of Biology.
 
-I received my PhD in <a href="https://csbphd.mit.edu/welcome-mit-computational-and-systems-biology-phd-program-csb">Computational and Systems Biology</a> from MIT, studying how individual cells coordinate
+I received my PhD in <a href="https://csbphd.mit.edu/welcome-mit-computational-and-systems-biology-phd-program-csb">Computational and Systems Biology</a> from MIT,
+studying how individual cells coordinate
 their actin-myosin contractions (which apply force on their neighbors) to smoothly
-fold a large connected sheet of epithelium. I used <em>in vivo</em> imaging,
-computer vision, and spatial statistics, to uncover how neighboring cells
-are coupled. Before this, I studied physics and applied mathematics at UC Berkeley.
+fold a large connected sheet of epithelium. Before this, I studied physics and applied mathematics at UC Berkeley.
