@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have published our preprint: <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588781v1.abstract">The G1/S transition in mammalian stem cells in vivo is autonomously regulated by cell size</a>
+Our preprint is out on bioRxiv: <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588781v1.abstract">The G1/S transition in mammalian stem cells in vivo is autonomously regulated by cell size</a>!
