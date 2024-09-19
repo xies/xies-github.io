@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: 4D intravital imaging at single cell resolution
+description: 3d imaging of single cells in a living mouse for a week
 img: assets/img/3.jpg
 importance: 2
 category: work

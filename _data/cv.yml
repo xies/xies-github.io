@@ -24,32 +24,6 @@
         - Applied mathematics
         - Highest honors
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral researcher
-      institution: Stanford University
-      year: 2016-2024
-      description:
-        - Department of Biology
-        - Jan Skotheim lab
-        - title: Mechanisms of mammalian cell size homeostasis in vivo.
-          contents:
-            - Long-term intravital imaging of living intact mice.
-            - Quantitative single cell tracking and profiling in 4D in vivo.
-            - Cellular and molecular mechanisms coupling cell growth to cell size that yields cell size homeostasis.
-
-    - title: Graduate student researcher
-      institution: Massachusetts Institute of Technology
-      year: 2010-2016
-      description:
-        - Computational and Systems Biology PhD program
-        - Adam C. Martin lab
-        - title: Coordinated actin-myosin contractions during gastrulation.
-          contents:
-           - Computational analysis of the spatiotemporal coordination of cellular
-           forge generation in a mechanically coupled epithelium.
-
 - title: Honors and Awards
   type: time_table
   contents:
