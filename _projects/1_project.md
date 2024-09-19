@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Cell-autonomous size homeostasis is the dominant cell cycle control mechanism \em{in vivo}
 description: with background image
 img: assets/img/12.jpg
 importance: 1
