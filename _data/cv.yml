@@ -48,9 +48,8 @@
       description:
         - Computational and Systems Biology PhD program
         - Adam C. Martin lab
-        - title: Coordinated actin-myosin contractions during <em>Drosophila</em>
-        gastrulation.
-         contents:
+        - title: Coordinated actin-myosin contractions during <em>Drosophila</em> gastrulation.
+          contents:
            - Live-tissue imaging of <em>Drosophila</em> ventral furrow formation
            - Computational analysis of the spatiotemporal coordination of cellular
            forge generation in a mechanically coupled epithelium.
