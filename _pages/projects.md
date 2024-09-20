@@ -5,7 +5,7 @@ permalink: /projects/
 description: A list of my current and previous research projects. Plus, some of my
 art projects.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, art]
 horizontal: false
 ---

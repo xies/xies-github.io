@@ -3,10 +3,9 @@ layout: page
 title: Portrait of a lab meeting
 description: I painted many of my colleagues in a parody of da Vinci's "Last Supper"... on pumpkins.
 img:
-importance: 7
+importance: 6
 category: art
 ---
-
 
 
 <div class="row">

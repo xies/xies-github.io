@@ -3,7 +3,7 @@ layout: page
 title: coordination of actin-myosin contractions
 description: how do thousands of mechanically connected cells collectively contract to fold the tissue?
 img: assets/img/publication_preview/pulsed_contractions.gif
-importance: 2
+importance: 3
 category: work
 giscus_comments: true
 ---
