@@ -78,19 +78,23 @@
       items:
         - Dean's Honor List, UC Berkeley
 
--title: Skills
+- title: Skills
   type: nested_list
   contents:
     - title: Computation
       items:
         - Biological image anlaysis and computer vision
         - Machine learning and deep learning
-        - <u>Python:<u> Numpy/Scipy/Pandas
+        - Statistical and mechanistic modeling
+        - Data engineering and visualization with Python
     - title: Cell and molecular biology
       items:
-        - <u>Microscopy:</u> Two photon, confocal, epifluorescence, live-cell and animal
+        - Microscopy, including two photon, confocal, epifluorescence, in live cells and tissues and animals
         - Quantitative immunofluorescence and flow cytometry
-        - Mouse imaging and husbandry
+    - title: Organisms
+      items:
+        - Mouse intravital imaging
+        - Mouse breeding and husbandry
         - Drosophila genetics
 
 - title: Other Interests
