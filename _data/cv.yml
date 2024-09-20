@@ -90,15 +90,6 @@
         - Description 1.
         - Description 2.
 
--title: Skills
-  type: nested_list
-  contents:
-    - title: Computation
-      items:
-        - Biological image anlaysis and computer vision
-        - Machine learning and deep learning
-        - <u>Python:<u> Numpy/Scipy/Pandas,
-
 - title: Other Interests
   type: list
   contents:
