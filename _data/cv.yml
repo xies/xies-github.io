@@ -9,14 +9,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Doctor of Philosophy
       institution: Massachusetts Institute of Technology
       year: 2016
       description:
         - Computational and Systems Biology PhD Program
         - Adam C. Martin lab
 
-    - title: BA
+    - title: Bachlor of Arts
       institution: University of California, Berkeley
       year: 2010
       description:

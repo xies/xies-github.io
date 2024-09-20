@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cell-autonomous size homeostasis in mammals
-description: Studying cell cycle and cell growth in adult mouse skin stem cells.
+description: Studying how cell growth and cell cycle progression are coupled in adult mouse skin stem cells.
 img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: work
@@ -24,7 +24,7 @@ Is this 'target size' autonomously calculated by individual cells, or is it a
 phenomena that emerges from cells interacting with each other in the tissue?
 Can we change this 'target size'?
 
-## The experimental system I use
+## What we knew and didn't know
 
 We knew a lot from yeast that a key aspect of cell cycle control is coupling
 cell cycle progression to cell growth, such that yeast cells don't grow too large
@@ -35,18 +35,19 @@ were born end up much more similar in size by the time they enter S phase.
 
 However, despite more than a decade of research, it was unclear whether mammalian
 cells coupled their cell cycle progression to their cell growth in quite the same
-way. Conflicting observations from different cell lines painted a really confusing
-picture. I wanted
+way. Conflicting observations from different _in vitro_ cell lines painted a really confusing
+picture. I wanted to side-step these cell lines altogether. Therefore, I set out
+to develop an experimental system in which we can study cell size homeostasis
+in an _in vivo_ animal.
+
+## Developing _in vivo_ imaging of mouse skin for quantitative 4D analysis of single cells
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/skin/intravital.png" title="intravital imaging" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+      How about just text?
     </div>
 </div>
 <div class="caption">
