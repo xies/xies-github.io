@@ -1,7 +1,7 @@
 ---
 layout: page
 title: my science illustrations
-description: I illustrate a variety of scientific subject matters (loosely defined), mostly using watercolor
+description: I illustrate a variety of scientific subject matters (loosely defined), mostly using watercolor. here are some examples.
 img: assets/img/art/coulter_counter.png
 importance: 6
 category: art
@@ -9,10 +9,10 @@ category: art
 
 ## cover art
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/scaling_text.png" title="scaling" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/cover.jpg" title="mol cell cover" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -24,10 +24,10 @@ category: art
 ## portraits of scientific equipment
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/coulter_counter.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/bluestuff.jpg" title="cleaning solution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -41,7 +41,7 @@ category: art
     maintenance solution that we all called "blue stuff."
 </div>
 
-## tubular
+## tubular cells
 
 <div class="row">
   <div class="col-sm-4 mt-3 mt-md-0">

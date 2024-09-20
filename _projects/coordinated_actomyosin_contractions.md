@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 4D intravital imaging at single cell resolution
-description: 3d imaging of single cells in a living mouse for a week
-img: assets/img/skin_slice_through.gif
+title: coordination of actin-myosin contractions
+description: how do thousands of mechanically connected cells collectively contract to fold the tissue?
+img: assets/img/publication_preview/pulsed_contractions.gif
 importance: 2
 category: work
 giscus_comments: true
