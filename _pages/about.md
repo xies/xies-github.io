@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a quantitative biologist interested in how cells and tissues
+I am a quantitative cell biologist interested in how cells and tissues
 "remember" how large they are supposed to be, even though they are being constantly
 generated and replaced in our adult bodies. I use intravital imaging
 to follow hundreds of adult stem cells over many days as they grow inside
