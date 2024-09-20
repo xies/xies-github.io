@@ -23,7 +23,7 @@
         - Physics
         - Applied mathematics
         - Highest honors
-
+        
 - title: Research experience
   type: time_table
   contents:
@@ -32,13 +32,19 @@
       year: 2016-2024
       description:
         - Department of Biology, Jan Skotheim lab
-        - Mechanisms of mammalian cell size homeostasis in vivo.
+        - Mechanisms of mammalian cell size homeostasis _in vivo_
+    - title: Visiting researcher
+      institution: Friedrich Miescher Institute for Biomedical Research
+      year: 2020
+      description:
+        - Prisca Liberali group
+        - Lightsheet imaging of intestinal organoids
     - title: Graduate student researcher
       institution: Massachusetts Institute of Technology
       year: 2010-2016
       description:
         - Computational and Systems Biology PhD program, Adam Martin lab
-        - Coordinated force-generation between mechanically coupled epithelial cells drives tissue folding
+        - Coordination betwen mechanically coupled contracting epithelial cells drives tissue folding
     - title: Undergraduate researcher
       institution: UC Berkeley
       year: 2007-2010
