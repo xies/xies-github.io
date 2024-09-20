@@ -1,14 +1,14 @@
 ---
 layout: page
-title: portrait of a lab meeting __en pumpkin__
-description: I illustrate a variety of subject matters using watercolor
-img: 
-importance: 6
+title: Portrait of a lab meeting
+description: I painted many of my colleagues in a parody of da Vinci's "Last Supper"... on pumpkins.
+img:
+importance: 7
 category: art
 ---
 
 
-## cover art
+
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/scaling_text.png" title="scaling" class="img-fluid rounded z-depth-1" %}
