@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: quantitative cell biology
+subtitle: postdoc @ stanford biology
 
 profile:
   align: right
@@ -10,8 +10,6 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>shicong (mimi) xie, phd</p>
-    <p>skotheim lab @ biology</p>
-    <p>stanford university</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
