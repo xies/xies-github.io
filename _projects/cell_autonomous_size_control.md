@@ -21,7 +21,7 @@ maintain that size over time.
 
 Budding yeast cells coordinate their G1-to-S cell cycle transition to cell size.
 Two cells that were born at different sizes end up more similar in size as they
-enter S phase.
+enter S phase. {}
 
 However, despite more than a decade of research, it was unclear whether mammalian
 cells coupled their cell cycle progression to their cell growth in quite the same
@@ -32,13 +32,19 @@ system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/skin/growth_curves.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
+  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-      I measured single cell growth curves
-    </div>
+
 </div>
+By analyzing how single cells grow _in vivo_, I found that cells that are born
+smaller spend longer in G1 phase compared to larger born cells. This is so that
+they can grow much more than their larger-born neighbors.
+
+This coordination between
 
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
 
