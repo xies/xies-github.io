@@ -6,16 +6,14 @@ img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: work
 related_publications: true
----
-
-```yml
 toc:
   sidebar: left
-```
+---
 
-## Why is cell size interesting?
 
-The mouse replaces almost all the cells in the skin of its paws every week.
+## I study how cells keep their size
+
+The mouse replaces almost all the cells in its skin every week.
 Skin stem cells continually proliferate to generate these new skin cells.
 Despite undergoing constant cycles growth and division, these stem cells
 maintain very uniform and stable size distribution over the life of the mouse,
@@ -26,10 +24,19 @@ Is this 'target size' autonomously calculated by individual cells, or is it a
 phenomena that emerges from cells interacting with each other in the tissue?
 Can we change this 'target size'?
 
-To answer these questions, I joined the lab of Jan Skotheim at Stanford,
-who discovered many of these mechanisms in budding yeast. However, prior to my
+## The experimental system I use
 
-## Pictures
+We knew a lot from yeast that a key aspect of cell cycle control is coupling
+cell cycle progression to cell growth, such that yeast cells don't grow too large
+in size. For budding yeast, the G1-to-S transition is sensitive to cell size. If
+a yeast cell is born too small compared to another cell, it waits longer in the G1 phase
+so as to grow more. Thus, cells that were initially quite different in size when they
+were born end up much more similar in size by the time they enter S phase.
+
+However, despite more than a decade of research, it was unclear whether mammalian
+cells coupled their cell cycle progression to their cell growth in quite the same
+way. Conflicting observations from different cell lines painted a really confusing
+picture. I wanted
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
