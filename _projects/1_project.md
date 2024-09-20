@@ -8,8 +8,13 @@ category: work
 related_publications: true
 ---
 
-<div class="row">
-  <div class = 'col-sm mt-3 mt-md-0'
+```yml
+toc:
+  sidebar: left
+```
+
+## Why is cell size interesting?
+
 The mouse replaces almost all the cells in the skin of its paws every week.
 Skin stem cells continually proliferate to generate these new skin cells.
 Despite undergoing constant cycles growth and division, these stem cells
@@ -24,7 +29,7 @@ Can we change this 'target size'?
 To answer these questions, I joined the lab of Jan Skotheim at Stanford,
 who discovered many of these mechanisms in budding yeast. However, prior to my
 
-
+## Pictures
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
