@@ -46,7 +46,6 @@ system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
     </div>
-
 </div>
 By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This is so that
@@ -57,6 +56,19 @@ to what was observed in budding yeast, and contrary to the majority of cell cult
 models.
 
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
+
+Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phase or not
+at any given time. However, it was unclear how much influence cell size (as opposed to
+  a slew of other environmental signals and changes these stem cells)
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
+  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
+    </div>
+</div>
 
 
 ## Variation in reaching the G1/S cell size threshold accounts for >70% of stem cell cycle heterogeneity

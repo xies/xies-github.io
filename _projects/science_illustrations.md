@@ -1,7 +1,7 @@
 ---
 layout: page
 title: my science illustrations
-description: I illustrate a variety of scientific subject matters (loosely defined), mostly using watercolor. here are some examples.
+description: I illustrate a variety of scientific subject matters (loosely defined), mostly using watercolor.
 img: assets/img/art/cells_in_tube.jpg
 importance: 5
 category: art
@@ -10,13 +10,13 @@ category: art
 ## tubular cells
 
 <div class="row">
-  <div class="col-sm-2 mt-3 mt-md-0">
+  <div class="col-sm-2">
       When my friend <a href="https://sites.uw.edu/vasquezlab/">Claudia Vásquez</a> left from Stanford
       to start her lab at University of Washington, studying how simple epithelial shapes like
       folds and tubes further organize in 3D into more complex shapes, I painted for her a cartoon of her
       model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
   </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8">
         {% include figure.liquid loading="eager" path="assets/img/art/cells_in_tube.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
