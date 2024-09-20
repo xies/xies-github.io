@@ -33,10 +33,10 @@ system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dense_cyto_t0_to_basal_tracks.gif" title="intravital imaging" class="img-fluid rounded z-depth-5" %}
+        {% include figure.liquid loading="eager" path="assets/img/skin/growth_curves.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-      I developed
+      I measured single cell growth curves
     </div>
 </div>
 
