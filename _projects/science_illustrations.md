@@ -25,10 +25,10 @@ category: art
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/coulter_counter.png" title="coulter counter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/art/coulter_counter.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/bluestuff.png" title="cleaning solution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/art/bluestuff.jpg" title="cleaning solution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -51,7 +51,7 @@ category: art
       model system of interest, the _Drosophlia_ Malpighian tubule cells.
   </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/cells_in_tube.png" title="coulter counter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/art/cells_in_tube.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
