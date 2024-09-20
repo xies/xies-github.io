@@ -2,13 +2,14 @@
 layout: page
 title: Cell-autonomous size homeostasis in mammals
 description: Studying cell cycle and cell growth in adult mouse skin stem cells.
-img: assets/img/dense_cyto_t0_to_basal_tracks.gif
+img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-
+<div class="row">
+  <div class = 'col-sm mt-3 mt-md-0'
 The mouse replaces almost all the cells in the skin of its paws every week.
 Skin stem cells continually proliferate to generate these new skin cells.
 Despite undergoing constant cycles growth and division, these stem cells
@@ -21,7 +22,7 @@ phenomena that emerges from cells interacting with each other in the tissue?
 Can we change this 'target size'?
 
 To answer these questions, I joined the lab of Jan Skotheim at Stanford,
-who studies these mechanisms in budding yeast.
+who discovered many of these mechanisms in budding yeast. However, prior to my
 
 
 
