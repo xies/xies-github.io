@@ -2,7 +2,7 @@
 layout: page
 title: Cell-autonomous size homeostasis in mammals
 description: cell cycle and cell growth in adult mouse skin stem cells
-img: assets/img/skin_slice_through.gif
+img: assets/img/dense_cyto_t0_to_basal_tracks.gif
 importance: 1
 category: work
 related_publications: true
@@ -19,20 +19,14 @@ Is this 'target size' autonomously calculated by individual cells, or is it a
 phenomena that emerges from cells interacting with each other in the tissue?
 Can we change this 'target size'?
 
-My postdoctoral work was motivated by these questions.
+To answer these questions, I joined the lab of Jan Skotheim at Stanford,
+who
 
 
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/skin/intravital.png" title="intravital imaging" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

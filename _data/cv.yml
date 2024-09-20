@@ -50,12 +50,12 @@
       year: 2009
       description:
         - Harald Hess group
-        - Automated image focus and calibration for the interferometry PALM microscope prototype
+        - Automated image calibration software for the interferometry PALM microscope prototype
     - title: NSF Research Experience for Undergraduates
       institution: The SETI Institute
       year: 2008
       description:
-        - Friedemann Freund
+        - Friedemann Freund group
         - Free radical production from igenous rock under mechanical stress
 
 - title: Honors and Awards
@@ -97,10 +97,10 @@
       items:
         - Biological image anlaysis and computer vision
         - Machine learning and deep learning
-        - <strong>Python<strong>, Numpy/Scipy/Pandas,
+        - <u>Python:<u> Numpy/Scipy/Pandas,
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Art:</u> Ink drawings, watercolor illustration, watercolor painting
-    - <u>Writing:</u> Poetry, short stories
+    - <u>Art:</u> Ink drawings, watercolor illustration (<a href="https://www.cell.com/molecular-cell/issue?pii=S1097-2765(20)X0024-4">cover art</a>), watercolor painting
+    - <u>Writing:</u> Poetry (<em><a href="https://www.ocf.berkeley.edu/~bpr/">Berkeley Poetry Review</a></em>, <em><a href="https://sinetheta.net/">Sine Theta Magazine</a></em>), short stories
