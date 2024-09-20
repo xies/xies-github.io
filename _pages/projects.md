@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research projects
+title: projects
 permalink: /projects/
 description: A list of my current and previous research projects. Plus, some of my
 art projects.
