@@ -78,17 +78,20 @@
       items:
         - Dean's Honor List, UC Berkeley
 
-- title: Academic Interests
+-title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computation
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Biological image anlaysis and computer vision
+        - Machine learning and deep learning
+        - <u>Python:<u> Numpy/Scipy/Pandas
+    - title: Cell and molecular biology
       items:
-        - Description 1.
-        - Description 2.
+        - <u>Microscopy:</u> Two photon, confocal, epifluorescence, live-cell and animal
+        - Quantitative immunofluorescence and flow cytometry
+        - Mouse imaging and husbandry
+        - Drosophila genetics
 
 - title: Other Interests
   type: list
