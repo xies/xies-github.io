@@ -3,7 +3,7 @@ layout: page
 title: my science illustrations
 description: I illustrate a variety of scientific subject matters (loosely defined), mostly using watercolor. here are some examples.
 img: assets/img/art/cells_in_tube.jpg
-importance: 6
+importance: 5
 category: art
 ---
 
