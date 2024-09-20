@@ -39,12 +39,24 @@
       description:
         - Computational and Systems Biology PhD program, Adam Martin lab
         - Coordinated force-generation between mechanically coupled epithelial cells drives tissue folding
+    - title: Undergraduate researcher
+      institution: UC Berkeley
+      year: 2007-2010
+      description:
+        - John Kuriyan group
+        - Ligand-stimulated oligomerization of EGFR
     - title: Janelia undergraduate scholar
       institution: Janelia Research Campus
       year: 2009
       description:
         - Harald Hess group
         - Automated image focus and calibration for the interferometry PALM microscope prototype
+    - title: NSF Research Experience for Undergraduates
+      institution: The SETI Institute
+      year: 2008
+      description:
+        - Friedemann Freund
+        - Free radical production from igenous rock under mechanical stress
 
 - title: Honors and Awards
   type: time_table
@@ -77,6 +89,15 @@
       items:
         - Description 1.
         - Description 2.
+
+-title: Skills
+  type: nested_list
+  contents:
+    - title: Computation
+      items:
+        - Biological image anlaysis and computer vision
+        - Machine learning and deep learning
+        - <strong>Python<strong>, Numpy/Scipy/Pandas,
 
 - title: Other Interests
   type: list
