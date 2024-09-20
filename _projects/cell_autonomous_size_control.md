@@ -17,18 +17,26 @@ Size is one of the most fundamental parameters of a cell. Yet, we do not
 understand what sets a cell's size, and once cells are formed, how they
 maintain that size over time.
 
+This mechanism is especially important in cell types in our bodies that are
+constantly proliferating, that is, the stem cells. Both growth and division can
+change cell size, and must be coordinated to keep cell size stability.
+
+<br>
+<br>
+
 ## What we knew (about yeast) and didn't know (about mammals)
 
 Budding yeast cells coordinate their G1-to-S cell cycle transition to cell size.
 Two cells that were born at different sizes end up more similar in size as they
-enter S phase. {}
+enter S phase.
 
-However, despite more than a decade of research, it was unclear whether mammalian
-cells coupled their cell cycle progression to their cell growth in quite the same
-way.
+However, despite more than a decade of research in cell culture models, it was
+unclear whether mammalian cells coupled their cell cycle progression to their
+cell growth in quite the same way.
 
 I set out to develop an <a href="https://xies.github.io/projects/2_project/">experimental
 system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
+<br>
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
@@ -42,9 +50,11 @@ system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
 </div>
 By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This is so that
-they can grow much more than their larger-born neighbors.
+they can grow much more than their larger-born neighbors. {% cite xie_g1}
 
-This coordination between
+This coordination between cell growth and the G1/S progression is very similar
+to what was observed in budding yeast, and contrary to the majority of cell culture
+models.
 
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
 
