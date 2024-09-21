@@ -7,16 +7,22 @@ importance: 6
 category: art
 ---
 
+Stanford's Department of Biology hosts a Pumpkin Fest every year on Halloween. For 2023, I decided to
+create portrait of a typical lab meeting framed as a parody of da Vinci's _Last Supper_.
 
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/scaling_text.png" title="scaling" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/cover.jpg" title="mol cell cover" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/art/pumpkin1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+Several of the Skotheim lab members are represented, including the beloved lab dog, Coco, who has jumped
+on top of the conference room table -- presumably begging for pizza.
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin3.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin5.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin6.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
 <div class="caption">
-    My colleague <a href="https://swafferlab.co.uk/">Matthew Swaffer</a> had found the mechanism by which yeast
-    cells synthesized proteins
+acrylic on pumpkin
 </div>
