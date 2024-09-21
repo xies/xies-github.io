@@ -41,13 +41,13 @@ model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
 ## portraits of scientific equipment
 
 <div class="row">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/coulter_counter.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/bluestuff.jpg" title="cleaning solution" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col mt-3 mt-md-0">
     Since the Skotheim lab used a variety of methods and model systems to study cell size,
     the equipment we used tended to be quite different. The one
     item that united us all, however, was the humble
