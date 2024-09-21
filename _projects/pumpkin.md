@@ -2,7 +2,7 @@
 layout: page
 title: lab meeting (after da vinci)
 description: I painted many of my colleagues in a parody of "The Last Supper"... on pumpkins.
-img:
+img: assets/img/art/pumpkin1.jpg
 importance: 6
 category: art
 ---
