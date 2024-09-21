@@ -13,12 +13,12 @@ to start her lab at University of Washington, studying how simple epithelial sha
 folds and tubes further organize in 3D into more complex shapes, I painted for her a cartoon of her
 model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
 <div class="row">
-    <div class="col-sm-2" mt-3 mt-md-0>
+    <div class="col" mt-3 mt-md-0>
     </div>
-    <div class="col-sm-6" mt-3 mt-md-0>
+    <div class="col-6" mt-3 mt-md-0>
         {% include figure.liquid loading="eager" path="assets/img/art/cells_in_tube.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2" mt-3 mt-md-0>
+    <div class="col" mt-3 mt-md-0>
     </div>
 </div>
 <div class="caption"> watercolor on paper </div>
@@ -39,7 +39,6 @@ model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
 
 
 ## portraits of scientific equipment
-
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
