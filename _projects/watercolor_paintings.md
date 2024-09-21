@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: watercolor paintings
+description: a small collection of some of my watercolor paintings.
 img: assets/img/art/hemlock_small.png
 importance: 7
 category: art
