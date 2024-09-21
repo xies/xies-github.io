@@ -4,7 +4,7 @@ title: 4D intravital imaging at single cell resolution
 description: 3d imaging of single cells in a living mouse for a week
 img: assets/img/skin/skin_slice_through.gif
 importance: 2
-category: work
+category: science
 giscus_comments: true
 ---
 
