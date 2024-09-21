@@ -5,6 +5,7 @@ description: I painted many of my colleagues in a parody of "The Last Supper"...
 img: assets/img/art/pumpkin1.jpg
 importance: 6
 category: art
+slider: true
 ---
 
 Stanford's Department of Biology hosts a Pumpkin Fest every year on Halloween. For 2023, I decided to
