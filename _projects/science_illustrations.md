@@ -13,12 +13,12 @@ to start her lab at University of Washington, studying how simple epithelial sha
 folds and tubes further organize in 3D into more complex shapes, I painted for her a cartoon of her
 model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
 <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2" mt-3 mt-md-0>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" mt-3 mt-md-0>
         {% include figure.liquid loading="eager" path="assets/img/art/cells_in_tube.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2" mt-3 mt-md-0>
     </div>
 </div>
 <div class="caption"> watercolor on paper </div>
@@ -40,22 +40,24 @@ model system of interest, the <i>Drosophlia</i> Malpighian tubule cells.
 
 ## portraits of scientific equipment
 
-Since the Skotheim lab used a variety of methods and model systems to study cell size,
-the equipment we used tended to be quite different. The one
-item that united us all, however, was the humble
-<a href="https://en.wikipedia.org/wiki/Coulter_counter">Coulter counter</a>, a machine
-that does two things exceedingly well: count cells and measure their volume. I painted
-a portrait of our resident Coulter counter, alongside its trusted friend, the blue
-maintenance solution that we all called "blue stuff."
-
-These images eventually were made into a Skotheim lab hoodie.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/coulter_counter.jpg" title="coulter counter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/bluestuff.jpg" title="cleaning solution" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+    Since the Skotheim lab used a variety of methods and model systems to study cell size,
+    the equipment we used tended to be quite different. The one
+    item that united us all, however, was the humble
+    <a href="https://en.wikipedia.org/wiki/Coulter_counter">Coulter counter</a>, a machine
+    that does two things exceedingly well: count cells and measure their volume. I painted
+    a portrait of our resident Coulter counter, alongside its trusted friend, the blue
+    maintenance solution that we all called "blue stuff."
+
+    These images eventually were made into a Skotheim lab hoodie.
     </div>
 </div>
 <div class="caption"> watercolor on paper </div>
