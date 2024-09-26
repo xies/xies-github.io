@@ -6,6 +6,8 @@ img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: science
 related_publications: true
+toc:
+  sidebar: top
 ---
 
 
@@ -58,15 +60,16 @@ and divide in the living mouse skin.
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
   <div class="col-4">
-By analyzing how single cells grow _in vivo_, I found that cells that are born
-smaller spend longer in G1 phase compared to larger born cells. This longer G1
-time means they are allowed to grow more compared to their larger-born cousins. In
-comparison, the rest of the cell cycle combined (S, G2, and M phases), was
-insensitive to cell size. {% cite xie_g1_2020 %}
+    By analyzing how single cells grow _in vivo_, I found that cells that are born
+    smaller spend longer in G1 phase compared to larger born cells. This longer G1
+    time means they are allowed to grow more compared to their larger-born cousins. In
+    comparison, the rest of the cell cycle combined (S, G2, and M phases), was
+    insensitive to cell size. {% cite xie_g1_2020 %}
 
-This coordination between cell growth and the G1/S progression is very similar
-to what was observed in budding yeast, and contrary to the majority of cell culture
-models.
+    This coordination between cell growth and the G1/S progression is very similar
+    to what was observed in budding yeast, and contrary to the majority of cell culture
+    models.
+    </div>
 </div>
 
 <br>
@@ -76,8 +79,7 @@ models.
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
 
 Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phase or not
-at any given time. However, it was unclear how much influence cell size (as opposed to
-  a slew of other environmental signals and changes these stem cells experience every day).
+at any given time. However, it was unclear how much influence cell size (as opposed to a slew of other environmental signals and changes these stem cells experience every day).
 
 <div class="row">
   <div class="col-2">
@@ -134,7 +136,7 @@ duration of G1.
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-auto">
-      {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size threshold" class="img-fluid rounded z-depth-5" %}
     </div>
 </div>
 
