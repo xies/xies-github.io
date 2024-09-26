@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-## Why?
+## Why study cell size?
 
 Size is one of the most fundamental parameters of a cell. Yet, we do not
 understand what sets a cell's size or how they maintain that size over time.
@@ -18,8 +18,13 @@ This mechanism is especially important in cell types in our bodies that are
 constantly proliferating -- that is, our stem cells. Both growth and division can
 change cell size, and must be coordinated to keep cell size stability.
 
-And why does cell size stability matter? In multicellular tissues, cell size
-dictates how tissues are packed, how cells touch each other, and how cells
+And why does cell size stability matter? For a single cell, its size
+determines the concentration of its genome, which limits how much machinery
+cells have access to to grow and perform their functions. In multicellular tissues, cell size
+dictates how tissues are organized, how cells move, how cells touch each other,
+and other physical forces driving cell behaviors.
+
+Despite this, cell size has not yet been systematically studied in multicellular tissues.
 
 <br>
 <br>
@@ -52,7 +57,7 @@ and divide in the living mouse skin.
   <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-</div>
+  <div class="col-4">
 By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This longer G1
 time means they are allowed to grow more compared to their larger-born cousins. In
@@ -62,6 +67,8 @@ insensitive to cell size. {% cite xie_g1_2020 %}
 This coordination between cell growth and the G1/S progression is very similar
 to what was observed in budding yeast, and contrary to the majority of cell culture
 models.
+</div>
+
 <br>
 <br>
 <br>
@@ -72,26 +79,22 @@ Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phas
 at any given time. However, it was unclear how much influence cell size (as opposed to
   a slew of other environmental signals and changes these stem cells experience every day).
 
-Using quantitative image analysis, I analyzed how the dividing cell's morphology
-as well as the tissue microenvironment surrounding it changed over time. Then,
-using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
-built statistical models to isolate which feature can predict whether cells will enter
-the G1/S transition. {% cite xie_g1s_2024 %}
-
-<br>
-<br>
-
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-2">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
   </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-2">
         {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
     </div>
+    <div class="6">
+    Using quantitative image analysis, I analyzed how the dividing cell's morphology
+    as well as the tissue microenvironment surrounding it changed over time. Then,
+    using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
+    built statistical models to isolate which feature can predict whether cells will enter
+    the G1/S transition. {% cite xie_g1s_2024 %
+      </div>
 </div>
-<div class="caption">
-Image analysis pipeline to measure <i>in vivo</i> cell and microenvironment morphometrics
-</div>
+<br>
 <br>
 <br>
 
@@ -120,7 +123,7 @@ depends on the functions of the retinoblastoma protein family members.
 <br>
 <br>
 
-## Variation in reaching the G1/S cell size threshold accounts for ~65% of stem cell cycle heterogeneity
+## G1/S cell size threshold accounts for ~65% of stem cell cycle heterogeneity
 
 G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
 96% of the total variation in cell cycle. I next find that a combination of two
@@ -135,11 +138,6 @@ duration of G1.
     </div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
-  </div>
-</div>
 <br>
 <br>
 <br>
@@ -152,4 +150,7 @@ _in vivo_ is stringently coupled to cell size, and variation in cell cycle lengt
 serves to maintain uniformity in cell size. _Why_ cell size uniformity needs to be actively
 maintained, however, is still a mystery.
 
-## Links to papers
+<br>
+<br>
+<br>
+<br>
