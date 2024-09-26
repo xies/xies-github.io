@@ -64,7 +64,7 @@ models.
 
 Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phase or not
 at any given time. However, it was unclear how much influence cell size (as opposed to
-  a slew of other environmental signals and changes these stem cells).
+  a slew of other environmental signals and changes these stem cells experience every day).
 
 Using quantitative image analysis, I analyzed how the dividing cell's morphology
 as well as the tissue microenvironment surrounding it changed over time. Then,
