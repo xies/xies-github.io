@@ -53,17 +53,18 @@ and divide in the living mouse skin.
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-  <div class="col-3">
+  <div class="col-2">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-9">
+  <div class="col-10">
     By analyzing how single cells grow _in vivo_, I found that cells that are born
     smaller spend longer in G1 phase compared to larger born cells. This longer G1
     time means they are allowed to grow more compared to their larger-born cousins. In
     comparison, the rest of the cell cycle combined (S, G2, and M phases), was
     insensitive to cell size. {% cite xie_g1_2020 %}
-
+    <br>
+    <br>
     This coordination between cell growth and the G1/S progression is very similar
     to what was observed in budding yeast, and contrary to the majority of cell culture
     models.
@@ -77,36 +78,37 @@ and divide in the living mouse skin.
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
 
 Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phase or not
-at any given time. However, it was unclear how much influence cell size (as opposed to a slew of other environmental signals and changes these stem cells experience every day).
+at any given time. However, it was unclear how much influence cell size (as opposed to a slew
+   of other environmental signals and changes these stem cells experience every day)
+   has on this key decision.
 
 <div class="row">
-  <div class="col-5">
+  <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
     </div>
-    <div class="7">
-    Using quantitative image analysis, I analyzed how the dividing cell's morphology
-    as well as the tissue microenvironment surrounding it changed over time. Then,
-    using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
-    built statistical models to isolate which feature can predict whether cells will enter
-    the G1/S transition. {% cite xie_g1s_2024 %
-      </div>
+    <div class="col-9">
+      Using quantitative image analysis, I analyzed how the dividing cell's morphology
+      as well as the tissue microenvironment surrounding it changed over time. Then,
+      using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
+      built statistical models to isolate which feature can predict whether cells will enter
+      the G1/S transition. {% cite xie_g1s_2024 %}
+    </div>
 </div>
 <br>
 <br>
 <br>
 
-These models predict G1/S transition with ~90% accuracy. Surprisingly, these models
-reveal that _only_ cell volume had any significant predictive power. In fact, a
-simplified model using only cell volume, a single variable, performed nearly
+My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
+reveal that _only_ cell volume has any significant predictive power. In fact, a
+simplified model using cell volume alone performed nearly
 as well as the full model that had access to the full cell and microenvironment
-features combined.
+features combined, meaning that G1 and post-G1-phases are separable by a single
+number: <b>a cell size threshold</b>.
 
-This means that G1 and post-G1-phases are separable by a single
-number: <b>a cell size threshold</b>. I also showed that acutely perturbing the microenvironment
-using laser cell ablations did not change this cell size threshold. Therefore, this
-threshold is autonomous to the dividing cell. I have also shown that this threshold
-depends on the functions of the retinoblastoma protein family members.
+Perturbing the microenvironment using laser cell ablations did not change this cell size threshold
+in neighboring cells, despite driving faster growth rates in those neighbors.
+Therefore, this threshold is autonomous to the dividing cell.
 
 <div class="row" style='height:200px;'>
   <div class="col-2 h-100">
