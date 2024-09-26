@@ -52,7 +52,7 @@ By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This longer G1
 time means they are allowed to grow more compared to their larger-born cousins. In
 comparison, the rest of the cell cycle combined (S, G2, and M phases), was
-insensitive to cell size.
+insensitive to cell size. {xie_g1_2020}
 
 This coordination between cell growth and the G1/S progression is very similar
 to what was observed in budding yeast, and contrary to the majority of cell culture
@@ -93,7 +93,7 @@ Using quantitative image analysis, I analyzed how the dividing cell's morphology
 as well as the tissue microenvironment surrounding it changed over time. Then,
 using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
 built statistical models to isolate which feature can predict whether cells will enter
-the G1/S transition.
+the G1/S transition. {cite % xie_g1_2020}
 
 <br>
 <br>
@@ -129,7 +129,9 @@ features combined.
 
 This single variable model means that G1 and post-G1-phases are separable by a single
 number: a <b>cell size threshold</b>. I also showed that acutely perturbing the microenvironment
-using laser cell ablations did not change this cell size treshold.
+using laser cell ablations did not change this cell size threshold. Therefore, this
+threshold is autonomous to the dividing cell. I have also shown that this threshold
+depends on the functions of the retinoblastoma protein family members.
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
       {% include figure.liquid loading="eager" path="assets/img/skin/single_model.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
@@ -156,3 +158,12 @@ duration of G1.
 <br>
 <br>
 <br>
+
+## Conclusion
+I showed that the highly heterogeneous cell cycles of adult stem cells _in vivo_ is
+due mainly to cell size homeostasis mechanisms. That is to say, the cell cycle progression
+_in vivo_ is stringently coupled to cell size, and variation in cell cycle length
+serves to maintain uniformity in cell size. _Why_ cell size uniformity needs to be actively
+maintained, however, is still a mystery.
+
+## Links to papers
