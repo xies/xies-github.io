@@ -53,13 +53,11 @@ and divide in the living mouse skin.
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-  <div class="col-3">
+  <div class="col-5">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
-  </div>
-  <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-4">
+  <div class="col-7">
     By analyzing how single cells grow _in vivo_, I found that cells that are born
     smaller spend longer in G1 phase compared to larger born cells. This longer G1
     time means they are allowed to grow more compared to their larger-born cousins. In
@@ -69,7 +67,7 @@ and divide in the living mouse skin.
     This coordination between cell growth and the G1/S progression is very similar
     to what was observed in budding yeast, and contrary to the majority of cell culture
     models.
-    </div>
+  </div>
 </div>
 
 <br>
@@ -82,13 +80,11 @@ Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phas
 at any given time. However, it was unclear how much influence cell size (as opposed to a slew of other environmental signals and changes these stem cells experience every day).
 
 <div class="row">
-  <div class="col-2">
+  <div class="col-5">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
-  </div>
-    <div class="col-2">
-        {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
     </div>
-    <div class="6">
+    <div class="7">
     Using quantitative image analysis, I analyzed how the dividing cell's morphology
     as well as the tissue microenvironment surrounding it changed over time. Then,
     using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
