@@ -90,7 +90,7 @@ the G1/S transition. {% cite xie_g1s_2024 %}
     </div>
 </div>
 <div class="caption">
-Image analysis pipeline to measure _in vivo_ cell and microenvironment morphometrics
+Image analysis pipeline to measure <i>in vivo</i> cell and microenvironment morphometrics
 </div>
 <br>
 <br>
@@ -108,10 +108,10 @@ threshold is autonomous to the dividing cell. I have also shown that this thresh
 depends on the functions of the retinoblastoma protein family members.
 
 <div class="row">
-  <div class="col-sm">
+  <div class="col-sm h-100">
       {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-sm">
+  <div class="col-sm h-100">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' %}
   </div>
 </div>
