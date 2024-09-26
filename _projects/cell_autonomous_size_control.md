@@ -26,14 +26,15 @@ change cell size, and must be coordinated to keep cell size stability.
 ## What we knew (about yeast) and didn't know (about mammals)
 
 Budding yeast cells coordinate their G1-to-S cell cycle transition to cell size.
-Two cells that were born at different sizes end up more similar in size as they
+This way, two cells that were born at different sizes end up more similar in size as they
 enter S phase.
 
 However, despite more than a decade of research in cell culture models, it was
 unclear whether mammalian cells coupled their cell cycle progression to their
-cell growth in quite the same way.
+cell growth in quite the same way, mainly due to the heterogeneous behaviors different
+cell lines _in vitro_ displayed when it came to their cell size and growth.
 
-I set out to develop an [experimental system]{% page_url 4d_single_cell_in_vivo_imaging %} in which we can study cell size homeostasis in an _in vivo_ animal.
+I set out to develop an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal.
 <br>
 <br>
 <br>
