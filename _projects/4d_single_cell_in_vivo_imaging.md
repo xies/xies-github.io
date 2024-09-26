@@ -42,7 +42,25 @@ and activity in between imaging sessions.
 This technique can collect time-lapsed '3D snapshots' of the same piece of skin tissue
 over many days. The longest I have done so far is daily snapshot for 10 days.
 
-## Computational analysis: alignment
+## Computational analysis: 3D alignment
 
 Although we have these 3D snapshots of the same region, they are not pixel-perfect. There are always
 slight variations in position and angle from timepoint to timepoint. Therefore, I built tools
+to register timepoints in 3D, and generate a final 'aligned movie' with fixed coordinates.
+
+## Computational analysis: 3D segmentation
+
+Segmentation in 3D remains challenging to do accurately and at scale. I generated
+training data and trained deep learning models (based on [stardist3D](https://github.com/stardist/stardist),
+[plantseg](https://github.com/kreshuklab/plant-seg), and [cellpose](https://github.com/MouseLand/cellpose) working in 3D stitching mode)
+to perform 3D boundary segmentation with relativelly high fidelity.
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      {% include figure.liquid loading="eager" path="assets/img/skin/imaging.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+    </div>
+  </div>
+</div>
+
+assets/img/skin/skin_slice_through.gif
