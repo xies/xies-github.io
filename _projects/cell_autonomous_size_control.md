@@ -53,11 +53,11 @@ and divide in the living mouse skin.
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-  <div class="col-5">
+  <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-7">
+  <div class="col-9">
     By analyzing how single cells grow _in vivo_, I found that cells that are born
     smaller spend longer in G1 phase compared to larger born cells. This longer G1
     time means they are allowed to grow more compared to their larger-born cousins. In
@@ -102,8 +102,8 @@ simplified model using only cell volume, a single variable, performed nearly
 as well as the full model that had access to the full cell and microenvironment
 features combined.
 
-This single variable model means that G1 and post-G1-phases are separable by a single
-number: a <b>cell size threshold</b>. I also showed that acutely perturbing the microenvironment
+This means that G1 and post-G1-phases are separable by a single
+number: <b>a cell size threshold</b>. I also showed that acutely perturbing the microenvironment
 using laser cell ablations did not change this cell size threshold. Therefore, this
 threshold is autonomous to the dividing cell. I have also shown that this threshold
 depends on the functions of the retinoblastoma protein family members.
@@ -125,7 +125,7 @@ depends on the functions of the retinoblastoma protein family members.
 
 G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
 96% of the total variation in cell cycle. I next find that a combination of two
-factors, cell size at birth (how close to the threshold a cell starts at) and cell growth rate
+factors, <u>cell size at birth</u> (how close to the threshold a cell starts at) and <u>cell growth rate</u>
 (how fast a cell approaches the threshold), can accurately predict the total
 duration of G1.
 
@@ -134,6 +134,7 @@ duration of G1.
     <div class="col-md-auto">
       {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size threshold" class="img-fluid rounded z-depth-5" %}
     </div>
+  </div>
 </div>
 
 <br>
