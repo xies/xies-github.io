@@ -6,8 +6,6 @@ img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: science
 related_publications: true
-toc:
-  sidebar: left
 ---
 
 
@@ -46,13 +44,13 @@ system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
   <div class="col-sm mt-3 mt-md-0">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
+  </div>
 </div>
 By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This longer G1
-time means they are allowed to grow more compared to their larger-born cousins. {% cite xie_g1} In
+time means they are allowed to grow more compared to their larger-born cousins. In
 comparison, the rest of the cell cycle combined (S, G2, and M phases), was
 insensitive to cell size.
 
@@ -82,9 +80,9 @@ the G1/S transition.
   <div class="col-sm mt-3 mt-md-0">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
   </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
+  </div>
 </div>
 <div class="caption">
 Image analysis pipeline to measure _in vivo_ cell and microenvironment morphometrics
@@ -129,4 +127,32 @@ features combined.
 <br>
 <br>
 
-## Variation in reaching the G1/S cell size threshold accounts for >70% of stem cell cycle heterogeneity
+This single variable model means that G1 and post-G1-phases are separable by a single
+number: a <b>cell size threshold</b>. I also showed that acutely perturbing the microenvironment
+using laser cell ablations did not change this cell size treshold.
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/single_model.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
+  </div>
+</div>
+
+<br>
+<br>
+
+## Variation in reaching the G1/S cell size threshold accounts for ~65% of stem cell cycle heterogeneity
+
+G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
+96% of the total variation in cell cycle. I next find that a combination of two
+factors, cell size at birth (how close to the threshold a cell starts at) and cell growth rate
+(how fast a cell approaches the threshold), can accurately predict the total
+duration of G1.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
