@@ -110,11 +110,11 @@ using laser cell ablations did not change this cell size threshold. Therefore, t
 threshold is autonomous to the dividing cell. I have also shown that this threshold
 depends on the functions of the retinoblastoma protein family members.
 
-<div class="row">
-  <div class="col-sm h-100">
+<div class="row" style='height:200px;'>
+  <div class="col-2 h-100">
       {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-sm h-100">
+  <div class="col-2 h-100">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' %}
   </div>
 </div>
