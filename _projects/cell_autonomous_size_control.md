@@ -99,23 +99,23 @@ at any given time. However, it was unclear how much influence cell size (as oppo
 <br>
 <br>
 
-My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
-reveal that _only_ cell volume has any significant predictive power. In fact, a
-simplified model using cell volume alone performed nearly
-as well as the full model that had access to the full cell and microenvironment
-features combined, meaning that G1 and post-G1-phases are separable by a single
-number: <b>a cell size threshold</b>.
-
-Perturbing the microenvironment using laser cell ablations did not change this cell size threshold
-in neighboring cells, despite driving faster growth rates in those neighbors.
-Therefore, this threshold is autonomous to the dividing cell.
 
 <div class="row" style='height:200px;'>
-  <div class="col-2 h-100">
+  <div class="col-2">
       {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
-  </div>
-  <div class="col-2 h-100">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' %}
+  </div>
+  <div class="col-10">
+    My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
+    reveal that _only_ cell volume has any significant predictive power. In fact, a
+    simplified model using cell volume alone performed nearly
+    as well as the full model that had access to the full cell and microenvironment
+    features combined, meaning that G1 and post-G1-phases are separable by a single
+    number: <b>a cell size threshold</b>.
+
+    Perturbing the microenvironment using laser cell ablations did not change this cell size threshold
+    in neighboring cells, despite driving faster growth rates in those neighbors.
+    Therefore, this threshold is autonomous to the dividing cell.
   </div>
 </div>
 
