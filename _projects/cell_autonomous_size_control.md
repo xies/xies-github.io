@@ -43,7 +43,7 @@ unclear whether mammalian cells coupled their cell cycle progression to their
 cell growth in quite the same way, mainly due to the heterogeneous behaviors different
 cell lines _in vitro_ displayed when it came to their cell size and growth.
 
-I set out to develop an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
+I developed an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
 using intravital imaging to directly observe how single cells grow
 and divide in the living mouse skin.
 
@@ -53,12 +53,12 @@ and divide in the living mouse skin.
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-  <div class="col-2">
+  <div class="col-4">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-10">
-    By analyzing how single cells grow _in vivo_, I found that cells that are born
+  <div class="col-8">
+    By analyzing how single cells grow <i>in vivo</i>, I found that cells that are born
     smaller spend longer in G1 phase compared to larger born cells. This longer G1
     time means they are allowed to grow more compared to their larger-born cousins. In
     comparison, the rest of the cell cycle combined (S, G2, and M phases), was
@@ -83,11 +83,11 @@ at any given time. However, it was unclear how much influence cell size (as oppo
    has on this key decision.
 
 <div class="row">
-  <div class="col-3">
+  <div class="col-4">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
     </div>
-    <div class="col-9">
+    <div class="col-8">
       Using quantitative image analysis, I analyzed how the dividing cell's morphology
       as well as the tissue microenvironment surrounding it changed over time. Then,
       using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
@@ -100,12 +100,12 @@ at any given time. However, it was unclear how much influence cell size (as oppo
 <br>
 
 
-<div class="row" style='height:200px;'>
-  <div class="col-2">
+<div class="row">
+  <div class="col-4">
       {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' %}
   </div>
-  <div class="col-10">
+  <div class="col-8">
     My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
     reveal that _only_ cell volume has any significant predictive power. In fact, a
     simplified model using cell volume alone performed nearly
