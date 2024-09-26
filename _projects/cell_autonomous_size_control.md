@@ -9,15 +9,17 @@ related_publications: true
 ---
 
 
-## I study how cells keep to the same size
+## Why?
 
 Size is one of the most fundamental parameters of a cell. Yet, we do not
-understand what sets a cell's size, and once cells are formed, how they
-maintain that size over time.
+understand what sets a cell's size or how they maintain that size over time.
 
 This mechanism is especially important in cell types in our bodies that are
-constantly proliferating, that is, the stem cells. Both growth and division can
+constantly proliferating -- that is, our stem cells. Both growth and division can
 change cell size, and must be coordinated to keep cell size stability.
+
+And why does cell size stability matter? In multicellular tissues, cell size
+dictates how tissues are packed, how cells touch each other, and how cells
 
 <br>
 <br>
@@ -34,17 +36,20 @@ unclear whether mammalian cells coupled their cell cycle progression to their
 cell growth in quite the same way, mainly due to the heterogeneous behaviors different
 cell lines _in vitro_ displayed when it came to their cell size and growth.
 
-I set out to develop an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal.
+I set out to develop an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
+using intravital imaging to directly observe how single cells grow
+and divide in the living mouse skin.
+
 <br>
 <br>
 <br>
 
 ## The G1/S transition _in vivo_ is sensitive to cell size
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1_length.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-3">
       {% include figure.liquid loading="eager" path="assets/img/skin/size_control_g1.png" title="growth curves" class="img-fluid rounded z-depth-5" %}
   </div>
 </div>
@@ -52,7 +57,7 @@ By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This longer G1
 time means they are allowed to grow more compared to their larger-born cousins. In
 comparison, the rest of the cell cycle combined (S, G2, and M phases), was
-insensitive to cell size. {cite % xie_g1_2020 %}
+insensitive to cell size. {% cite xie_g1_2020 %}
 
 This coordination between cell growth and the G1/S progression is very similar
 to what was observed in budding yeast, and contrary to the majority of cell culture
@@ -71,7 +76,7 @@ Using quantitative image analysis, I analyzed how the dividing cell's morphology
 as well as the tissue microenvironment surrounding it changed over time. Then,
 using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
 built statistical models to isolate which feature can predict whether cells will enter
-the G1/S transition. {cite % xie_g1s_2024 %}
+the G1/S transition. {% cite xie_g1s_2024 %}
 
 <br>
 <br>
