@@ -47,7 +47,7 @@ over many days. The longest I have done so far is daily snapshot for 10 days.
 Although we have these 3D snapshots of the same region, they are not pixel-perfect. There are always
 slight variations in position and angle from timepoint to timepoint. Therefore, I built tools
 to register timepoints in 3D, and generate a final 'aligned movie' with fixed coordinates. I
-am currently working on publishing a [napari]() plugin of this functionality.
+am currently working on publishing a [napari](https://napari.org/stable/) plugin of this functionality.
 
 ## Computational analysis: 3D segmentation
 

@@ -40,10 +40,13 @@ enter S phase.
 
 However, despite more than a decade of research in cell culture models, it was
 unclear whether mammalian cells coupled their cell cycle progression to their
-cell growth in quite the same way, mainly due to the heterogeneous behaviors different
-cell lines _in vitro_ displayed when it came to their cell size and growth.
+cell growth in quite the same way. Different cell lines seemed to have different
+cell size behaviors, and it was argued that for metazoan cells, the coordination
+between cell growth and cell cycle mainly occurred at the _signaling_ level, and was
+not autonomous to the cell.
 
-I developed an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
+We knew next to nothing about cells _in vivo_, however.
+Therefore, I developed an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
 using intravital imaging to directly observe how single cells grow
 and divide in the living mouse skin.
 
