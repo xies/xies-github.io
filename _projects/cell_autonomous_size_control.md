@@ -33,8 +33,7 @@ However, despite more than a decade of research in cell culture models, it was
 unclear whether mammalian cells coupled their cell cycle progression to their
 cell growth in quite the same way.
 
-I set out to develop an <a href="https://xies.github.io/projects/2_project/">experimental
-system</a> in which we can study cell size homeostasis in an _in vivo_ animal.
+I set out to develop an [experimental system][page_url 4d_single_cell_in_vivo_imaging] in which we can study cell size homeostasis in an _in vivo_ animal.
 <br>
 <br>
 <br>
