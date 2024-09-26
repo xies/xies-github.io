@@ -46,7 +46,8 @@ over many days. The longest I have done so far is daily snapshot for 10 days.
 
 Although we have these 3D snapshots of the same region, they are not pixel-perfect. There are always
 slight variations in position and angle from timepoint to timepoint. Therefore, I built tools
-to register timepoints in 3D, and generate a final 'aligned movie' with fixed coordinates.
+to register timepoints in 3D, and generate a final 'aligned movie' with fixed coordinates. I
+am currently working on publishing a [napari]() plugin of this functionality.
 
 ## Computational analysis: 3D segmentation
 
@@ -58,9 +59,42 @@ to perform 3D boundary segmentation with relativelly high fidelity.
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-auto">
-      {% include figure.liquid loading="eager" path="assets/img/skin/imaging.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/skin_slice_through.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
     </div>
   </div>
 </div>
 
-assets/img/skin/skin_slice_through.gif
+## Computational analysis: 3D tracking
+Cell tracking poses an even larger challenge compared to segmentation, especially in
+3D. Currently, I am performing semi-automated cell tracking in 3D using the
+[Mastodon](https://github.com/mastodon-sc) lineage visualization and tracking, and I have
+developed software to interface with Mastodon outputs and integrate them into the
+rest of the analysis pipeline.
+
+This produces high-fidelity tracking of skin stem cells in my movies.
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      {% include figure.liquid loading="eager" path="assets/img/skin/dense_cyto_t0_to_basal_tracks.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+    </div>
+  </div>
+</div>
+
+## Computational analysis: 3D microenvironment analysis
+In order to analyze how the microenvironment around each cell changes over time,
+I developed a computational framework to: 1) extract and encode cell-cell contact maps in 3D;
+2) extract tissue-level geometry and its changes; and 3) extract features of the
+extracellular collagen matrix that is in contact with each cell.
+
+Combining this framework with high-fidelity 3D single cell segmentation and tracking yields
+a rich dataset that has unprecedented insight into the cellular dynamics that underly
+how an _in vivo_ tissue evolves over time.
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+    </div>
+  </div>
+</div>

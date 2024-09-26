@@ -119,7 +119,7 @@ at any given time. However, it was unclear how much influence cell size (as oppo
     Therefore, this threshold is autonomous to the dividing cell.
     <br>
     <br>
-    The
+
   </div>
 </div>
 
@@ -129,8 +129,9 @@ at any given time. However, it was unclear how much influence cell size (as oppo
 
 ## G1/S cell size threshold accounts for ~65% of stem cell cycle heterogeneity
 
-G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
-96% of the total variation in cell cycle. I next find that a combination of two
+The _in vivo_ skin stem cell cycle is highly heterogeneous. For the mouse hindpaw, it
+could be as short as 1 day or longer than 1 week. G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
+96% of the total variation in cell cycle. I showed that a combination of two
 factors, <u>cell size at birth</u> (how close to the threshold a cell starts at) and <u>cell growth rate</u>
 (how fast a cell approaches the threshold), can accurately predict the total
 duration of G1.
@@ -149,7 +150,7 @@ duration of G1.
 <br>
 
 ## Conclusion
-I showed that the highly heterogeneous cell cycles of adult stem cells _in vivo_ is
+The high heterogeneity cell cycles of adult stem cells _in vivo_ is
 due mainly to cell size homeostasis mechanisms. That is to say, the cell cycle progression
 _in vivo_ is stringently coupled to cell size, and variation in cell cycle length
 serves to maintain uniformity in cell size. _Why_ cell size uniformity needs to be actively
