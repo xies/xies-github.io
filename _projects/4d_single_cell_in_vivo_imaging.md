@@ -14,4 +14,6 @@ I developed an experimental system to directly observe and track single cells in
 over long periods of time.
 
 
-##
+## Intravital imaging of mouse skin
+
+The methods to image mouse cells were pioneered by [Valentina Greco](https://www.grecolab.org/lab-members)'s group,
