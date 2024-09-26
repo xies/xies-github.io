@@ -51,7 +51,7 @@ By analyzing how single cells grow _in vivo_, I found that cells that are born
 smaller spend longer in G1 phase compared to larger born cells. This longer G1
 time means they are allowed to grow more compared to their larger-born cousins. In
 comparison, the rest of the cell cycle combined (S, G2, and M phases), was
-insensitive to cell size. {xie_g1_2020}
+insensitive to cell size. {cite % xie_g1_2020 %}
 
 This coordination between cell growth and the G1/S progression is very similar
 to what was observed in budding yeast, and contrary to the majority of cell culture
@@ -70,29 +70,7 @@ Using quantitative image analysis, I analyzed how the dividing cell's morphology
 as well as the tissue microenvironment surrounding it changed over time. Then,
 using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
 built statistical models to isolate which feature can predict whether cells will enter
-the G1/S transition.
-
-<br>
-<br>
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
-  </div>
-</div>
-<div class="caption">
-Image analysis pipeline to measure _in vivo_ cell and microenvironment morphometrics
-</div>
-
-
-Using quantitative image analysis, I analyzed how the dividing cell's morphology
-as well as the tissue microenvironment surrounding it changed over time. Then,
-using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
-built statistical models to isolate which feature can predict whether cells will enter
-the G1/S transition. {cite % xie_g1_2020}
+the G1/S transition. {cite % xie_g1s_2024 %}
 
 <br>
 <br>
@@ -137,6 +115,7 @@ depends on the functions of the retinoblastoma protein family members.
   </div>
 </div>
 
+<br>
 <br>
 <br>
 
