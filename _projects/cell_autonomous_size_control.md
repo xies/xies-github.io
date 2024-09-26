@@ -96,23 +96,18 @@ simplified model using only cell volume, a single variable, performed nearly
 as well as the full model that had access to the full cell and microenvironment
 features combined.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
-  </div>
-</div>
-
-<br>
-<br>
-
 This single variable model means that G1 and post-G1-phases are separable by a single
 number: a <b>cell size threshold</b>. I also showed that acutely perturbing the microenvironment
 using laser cell ablations did not change this cell size threshold. Therefore, this
 threshold is autonomous to the dividing cell. I have also shown that this threshold
 depends on the functions of the retinoblastoma protein family members.
+
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/skin/single_model.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
+  <div class="col-sm">
+      {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
+  </div>
+  <div class="col-sm">
+      {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' %}
   </div>
 </div>
 
@@ -127,6 +122,13 @@ G1 phase is by far the most variable cell cycle phase _in vivo_, accounting for
 factors, cell size at birth (how close to the threshold a cell starts at) and cell growth rate
 (how fast a cell approaches the threshold), can accurately predict the total
 duration of G1.
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size thresold" class="img-fluid rounded z-depth-5" %}
+    </div>
+</div>
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
