@@ -10,7 +10,6 @@ toc:
   sidebar: top
 ---
 
-<b>This work was built on my methods work on [analyzing 4D single cell dynamics in a living mouse](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/).</b>
 
 ## Why study cell size?
 
@@ -47,9 +46,9 @@ between cell growth and cell cycle mainly occurred at the _signaling_ level, and
 not autonomous to the cell.
 
 We knew next to nothing about cells _in vivo_, however.
-Therefore, I developed an [experimental system](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) in which we can study cell size homeostasis in an _in vivo_ animal,
-using intravital imaging to directly observe how single cells grow
-and divide in the living mouse skin.
+Therefore, I developed an experimental system experimental system in which I can
+study cell size homeostasis in an _in vivo_ animal,
+using [intravital imaging](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) to directly observe how single cells grow and divide in the living mouse skin, in 4D.
 
 <br>
 <br>
