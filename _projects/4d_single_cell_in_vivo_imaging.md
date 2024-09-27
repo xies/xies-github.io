@@ -10,8 +10,10 @@ related_publications: true
 ---
 
 In order to study the _dynamics_ of cell growth and cell cycle progression in an adult animal,
-I developed an experimental system to directly observe and track single cells in a living mouse,
-over long periods of time.
+I developed an experimental system to directly observe and track hundreds of single cells in a living mouse,
+over long periods of time, in 4D. {% cite xie_g1s_2024 %}
+
+Most of the functionality described in this page is available at this [repository](https://github.com/xies/mouse_skin_size_control).
 
 
 ## Intravital imaging of mouse skin
@@ -58,7 +60,7 @@ for analyzing new images I generate, allowing me to process datasets much faster
 
 <div class="row justify-content-md-center">
   <div class="col-md-5">
-    {% include figure.liquid loading="eager" path="assets/img/skin/skin_slice_through.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+    {% include figure.liquid loading="eager" path="assets/img/skin/skin_slice_through.gif" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
   </div>
 </div>
 
@@ -74,7 +76,7 @@ This produces high-fidelity tracking of skin stem cells in my movies.
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-5">
-      {% include figure.liquid loading="eager" path="assets/img/skin/dense_cyto_t0_to_basal_tracks.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/dense_cyto_t0_to_basal_tracks.gif" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
     </div>
   </div>
 </div>
