@@ -85,19 +85,25 @@ at any given time. However, it was unclear how much influence cell size (as oppo
    of other environmental signals and changes these stem cells experience every day)
    has on this key decision.
 
+   Using quantitative image analysis, I analyzed how the dividing cell's morphology
+   as well as the tissue microenvironment surrounding it changed over time. Then,
+   using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
+   built statistical models to isolate which feature can predict whether cells will enter
+   the G1/S transition. {% cite xie_g1s_2024 %}
+
 <div class="row">
-  <div class="col-4">
+  <div class ="col"></div>
+  <div class="col">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
+  </div>
+  <div class="col">
       {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
-      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
-    </div>
-    <div class="col-8">
-      Using quantitative image analysis, I analyzed how the dividing cell's morphology
-      as well as the tissue microenvironment surrounding it changed over time. Then,
-      using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
-      built statistical models to isolate which feature can predict whether cells will enter
-      the G1/S transition. {% cite xie_g1s_2024 %}
-    </div>
+  </div>
+</div>
+<div class='row'>
+  <div class='col-md-auto'>
+      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded" %}
+  </div>
 </div>
 <br>
 <br>
@@ -106,7 +112,6 @@ at any given time. However, it was unclear how much influence cell size (as oppo
 
 <div class="row">
   <div class="col-5">
-      {% include figure.liquid loading="eager" path="assets/img/skin/model.png" title="G1/S prediction model" class="img-fluid rounded z-depth-5" %}
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' zoomable=true %}
   </div>
   <div class="col-7">
