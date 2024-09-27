@@ -6,7 +6,8 @@ img: assets/img/skin/skin_slice_through.gif
 importance: 2
 category: science
 related_publications: true
-
+toc:
+  sidebar: top
 ---
 
 In order to study the _dynamics_ of cell growth and cell cycle progression in an adult animal,
@@ -50,7 +51,7 @@ slight variations in position and angle from timepoint to timepoint. Therefore, 
 to register timepoints in 3D, and generate a final 'aligned movie' with fixed coordinates. I
 am currently working on publishing a [napari](https://napari.org/stable/) plugin of this functionality.
 
-## Image analysis: 3D segmentation
+## Single cell analysis: 3D segmentation
 
 Segmentation in 3D remains challenging to do accurately and at scale. I generated
 training data and trained deep learning models (based on [stardist3D](https://github.com/stardist/stardist),
@@ -64,7 +65,7 @@ for analyzing new images I generate, allowing me to process datasets much faster
   </div>
 </div>
 
-## Computational analysis: 3D tracking
+## Single cell analysis: 3D tracking
 Cell tracking poses an even larger challenge compared to segmentation, especially in
 3D. Currently, I am performing semi-automated cell tracking in 3D using the
 [Mastodon](https://github.com/mastodon-sc) lineage visualization and tracking, and I have
@@ -81,7 +82,7 @@ This produces high-fidelity tracking of skin stem cells in my movies.
   </div>
 </div>
 
-## Computational analysis: 3D microenvironment analysis
+## 3D microenvironment analysis
 In order to analyze how the microenvironment around each cell changes over time,
 I developed a computational framework to: 1) extract and encode cell-cell contact maps in 3D;
 2) extract tissue-level geometry and its changes; and 3) extract features of the
@@ -94,7 +95,7 @@ how an _in vivo_ tissue evolves over time.
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-5">
-      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="imaging a mouse's skin" class="img-fluid" %}
     </div>
   </div>
 </div>
