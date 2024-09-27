@@ -23,7 +23,7 @@ leads to a discrete constriction of the cell apical surface.
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulse.png" title="imaging a mouse's skin" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulses.png" title="imaging a mouse's skin" class="img-fluid rounded" %}
   </div>
 </div>
 <br>
