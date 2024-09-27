@@ -23,7 +23,7 @@ leads to a discrete constriction of the cell apical surface.
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
   </div>
 </div>
 <br>
@@ -75,7 +75,7 @@ in cell size and ensures robust morphogenesis. {% cite xie_loss_2016 %}
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="publication_preview/cta_buffering.png" title="cta" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/cta_buffering.png" title="cta" class="img-fluid rounded" %}
   </div>
 </div>
 <br>

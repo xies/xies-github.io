@@ -51,7 +51,7 @@ over many days, if not months.
 <br>
 <br>
 
-## Image processing: 3D alignment
+## Image processing: 3D registration
 
 Although we have these 3D snapshots of the same region, they are not pixel-perfect. There are always
 slight variations in position and angle from timepoint to timepoint. Therefore, I built tools
