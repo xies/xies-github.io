@@ -10,6 +10,8 @@ toc:
   sidebar: top
 ---
 
+This work was the methodological basis of my work on [mammalian cell size homeostasis]({% page_url cell_autonomous_size_control %}).
+
 In order to study the _dynamics_ of cell growth and cell cycle progression in an adult animal,
 I developed an experimental system to directly observe and track hundreds of single cells in a living mouse,
 over long periods of time, in 4D. {% cite xie_g1s_2024 %}
@@ -69,7 +71,7 @@ to perform 3D boundary segmentation with high fidelity. These models can be depl
 for analyzing new images I generate, allowing me to process datasets much faster.
 
 <div class="row justify-content-md-center">
-  <div class="col-lg-8">
+  <div class="col-lg-6">
     {% include figure.liquid loading="eager" path="assets/img/skin/skin_slice_through.gif" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
   </div>
 </div>
@@ -88,7 +90,7 @@ This produces high-fidelity tracking of skin stem cells in my movies.
 
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col-lg-8">
+    <div class="col-lg-6">
       {% include figure.liquid loading="eager" path="assets/img/skin/dense_cyto_t0_to_basal_tracks.gif" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
     </div>
   </div>

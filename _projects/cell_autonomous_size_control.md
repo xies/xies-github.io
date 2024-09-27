@@ -92,7 +92,7 @@ key decision, compared to the slew of other environmental signals and changes th
 
 <div class="row">
   <div class="col">
-      {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded" %}
   </div>
   <div class="col">
       {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
@@ -100,7 +100,7 @@ key decision, compared to the slew of other environmental signals and changes th
 </div>
 <div class='row'>
   <div class='col-md-3'>
-      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded  z-depth-5" %}
   </div>
 </div>
 <br>
@@ -109,10 +109,10 @@ key decision, compared to the slew of other environmental signals and changes th
 
 
 <div class="row">
-  <div class="col-5">
+  <div class="col-6">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' zoomable=true %}
   </div>
-  <div class="col-7">
+  <div class="col-6">
     My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
     reveal that <i>only</i> cell volume has any significant predictive power. In fact, a
     simplified model using cell volume alone performed nearly
