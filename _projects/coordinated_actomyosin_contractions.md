@@ -2,7 +2,7 @@
 layout: page
 title: Coordination of actin-myosin contractions
 description: How does a thousand cells coherently generate force to bring about tissue-level folding?
-img: assets/img/publication_preview/pulsed_contractions.gif
+img: assets/img/publication_preview/pulsed_contraction_crop.gif
 importance: 3
 category: science
 related_publications: true
@@ -38,7 +38,7 @@ tissue tension across a millimeter in length.
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/pulsed_contractions.gif" title="imaging a mouse's skin" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulsed_contractions_full.gif" title="imaging a mouse's skin" class="img-fluid rounded" %}
   </div>
 </div>
 
@@ -71,7 +71,7 @@ initially larger than their neighbors cannot sustain enough tension throughout
 its apical cortext, and will be pulled apart by its contracting neighbors.
 
 Thus, this pathway buffers the contracting mesoderm against heterogeneity
-in cell size and ensures robust morphogenesis.
+in cell size and ensures robust morphogenesis. {% cite xie_loss_2016 %}
 
 <div class='row'>
   <div class='col'>
