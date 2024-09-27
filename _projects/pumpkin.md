@@ -21,14 +21,10 @@ on top of the conference room table -- presumably to beg for pizza.
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/art/pumpkin2.jpg" class="img-fluid rounded" zoomable=true %}
-    <p>
-    me going over some slides
   </swiper-slide>
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/art/pumpkin3.jpg" class="img-fluid rounded" zoomable=true %}
-    <p>
-    
   </swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin4.jpg" class="img-fluid rounded" zoomable=true %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/art/pumpkin5.jpg" class="img-fluid rounded" zoomable=true %}</swiper-slide>
