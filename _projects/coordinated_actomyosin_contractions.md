@@ -26,5 +26,58 @@ leads to a discrete constriction of the cell apical surface.
     {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulse.png" title="imaging a mouse's skin" class="img-fluid rounded" %}
   </div>
 </div>
+<br>
+<br>
+<br>
 
 ## How are discrete pulses spatiotemporally coordinated?
+
+I became interested in how a large, mechanically coupled sheet of epithelial cells
+coordinate these discrete contraction events in a way that eventually propagates
+tissue tension across a millimeter in length.
+
+<div class='row'>
+  <div class='col'>
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/pulsed_contractions.gif" title="imaging a mouse's skin" class="img-fluid rounded" %}
+  </div>
+</div>
+
+I built computational methods to extract when and where these contractions occurred
+in the embryo, using a combination of image analysis and time-series analysis. {% cite xie_intracellular_2015 %}
+
+Then, using machine learning, Monte Carlo methods, and spatial statistical analysis,
+I found that neighboring pulses are coordinated within the epithelium. Cells that
+are next to contractions are more likely to mount a contraction of their own. Contractions
+that are next to other contractions are also more likely to be irreversible.
+<br>
+<br>
+<br>
+
+## How does a contracting epithelium tolerate heterogeneity in cell size?
+
+Using my computational method, I analyzed a class of developmental mutants
+who fail to mount 'coherent' contractions. In these mutants, a subset of
+cells in the mesoderm successfully constrict their apical surface, while the rest
+of the cells end up with expanded apices, resulting in failed gastrulation.
+
+These mutations encode genes in the _Drosophila_ Gα12/13 pathway, including the gene _concertina_ (_cta_),
+which activates RhoA GTPase to control actin-myosin dynamics.
+
+I found that, contrary to previous models that suggested these pathways propagated a
+contraction signal throughout the tissue, these pathways actually acted cell-autonomously.
+They ensured that the apical cortex in each contracting cell is robustly organized
+to withstand heterogeneity in apical sizes. In _cta_ mutants, cells that are
+initially larger than their neighbors cannot sustain enough tension throughout
+its apical cortext, and will be pulled apart by its contracting neighbors.
+
+Thus, this pathway buffers the contracting mesoderm against heterogeneity
+in cell size and ensures robust morphogenesis.
+
+<div class='row'>
+  <div class='col'>
+    {% include figure.liquid loading="eager" path="cta_buffering" title="imaging a mouse's skin" class="img-fluid rounded" %}
+  </div>
+</div>
+<br>
+<br>
+<br>
