@@ -99,8 +99,8 @@ key decision, compared to the slew of other environmental signals and changes th
   </div>
 </div>
 <div class="row justify-content-md-center">
-  <div class='col-md-5'>
-      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded  z-depth-5" %}
+  <div class='col-md-6'>
+      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded" %}
   </div>
 </div>
 <br>
@@ -109,7 +109,7 @@ key decision, compared to the slew of other environmental signals and changes th
 
 
 <div class="row">
-  <div class="col-7">
+  <div class="col-6">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' zoomable=true %}
   </div>
   <div class="col-5">
