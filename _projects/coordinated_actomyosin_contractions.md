@@ -75,11 +75,14 @@ its apical cortext, and will be pulled apart by its contracting neighbors.
 Thus, this pathway buffers the contracting mesoderm against heterogeneity
 in cell size and ensures robust morphogenesis. {% cite xie_loss_2016 %}
 
-<div class='row'>
-  <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/cta_buffering.png" title="cta" class="img-fluid rounded" %}
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      {% include figure.liquid loading="eager" path="assets/img/publication_preview/cta_buffering.png" title="cta" class="img-fluid rounded" %}
+    </div>
   </div>
 </div>
+
 <br>
 <br>
 <br>
