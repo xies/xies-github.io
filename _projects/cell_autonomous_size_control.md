@@ -109,10 +109,10 @@ key decision, compared to the slew of other environmental signals and changes th
 
 
 <div class="row">
-  <div class="col-6">
+  <div class="col-7">
       {% include figure.liquid loading='eager' path='/assets/img/skin/single_model.png' title='Single cell size threshold predicts G1/S' class='img-fluid rounded z-depth-5' zoomable=true %}
   </div>
-  <div class="col-6">
+  <div class="col-5">
     My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
     reveal that <i>only</i> cell volume has any significant predictive power. In fact, a
     simplified model using cell volume alone performed nearly
