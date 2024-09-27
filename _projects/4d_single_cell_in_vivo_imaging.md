@@ -23,7 +23,7 @@ Most of the functionality described in this page is available at this [repositor
 
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col-lg-5">
+    <div class="col-lg-6">
       {% include figure.liquid loading="eager" path="assets/img/skin/imaging.png" title="imaging a mouse's skin" class="img-fluid rounded" %}
     </div>
   </div>
