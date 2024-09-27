@@ -50,6 +50,14 @@ Therefore, I developed an experimental system experimental system in which I can
 study cell size homeostasis in an _in vivo_ animal,
 using [intravital imaging](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) to directly observe how single cells grow and divide in the living mouse skin, in 4D.
 
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-lg-4">
+      {% include figure.liquid loading="eager" path="assets/img/skin/dense_cyto_t0_to_basal_tracks.gif" title="imaging a mouse's skin" class="img-fluid rounded z-depth-5" %}
+    </div>
+  </div>
+</div>
+
 <br>
 <br>
 <br>
