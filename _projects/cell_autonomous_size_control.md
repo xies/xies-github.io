@@ -152,7 +152,7 @@ duration of G1.
 
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col-md-3">
+    <div class="col-md-2">
       {% include figure.liquid loading="eager" path="assets/img/skin/predict_g1.png" title="G1/S cell size threshold" class="img-fluid rounded z-depth-5" %}
     </div>
   </div>
