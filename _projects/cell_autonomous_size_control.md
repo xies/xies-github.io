@@ -98,12 +98,10 @@ key decision, compared to the slew of other environmental signals and changes th
       {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
   </div>
 </div>
-<div class="container">
 <div class="row justify-content-md-center">
   <div class='col-md-5'>
       {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded  z-depth-5" %}
   </div>
-</div>
 </div>
 <br>
 <br>
