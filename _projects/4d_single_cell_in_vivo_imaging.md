@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 4D intravital imaging at single cell resolution
-description: 3d imaging of single cells in a living mouse for a week
+description: Methods to analyze 4D single cell dynamics in a living mouse
 img: assets/img/skin/skin_slice_through.gif
 importance: 2
 category: science

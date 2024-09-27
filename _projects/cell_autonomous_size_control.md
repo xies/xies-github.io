@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cell-autonomous size homeostasis in mammals
-description: Studying how cell growth and cell cycle progression are coupled in adult mouse skin stem cells.
+description: How are cell growth and cell cycle progression coupled?
 img: assets/img/publication_preview/cell_autonomous.png
 importance: 1
 category: science

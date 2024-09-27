@@ -23,7 +23,7 @@
         - Physics
         - Applied mathematics
         - Highest honors
-        
+
 - title: Research experience
   type: time_table
   contents:
@@ -80,6 +80,9 @@
     - year: 2018
       items:
         - National Insitute of Health, NIGMS, F32 Kirschstein-NRSA postdoctoral fellowship
+    - year: 2006-2010
+      items:
+        - Regents' and Chancellors' Scholarship
     - year: 2006-2009
       items:
         - Dean's Honor List, UC Berkeley
