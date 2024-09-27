@@ -86,11 +86,12 @@ at any given time. However, it was unclear how much influence cell size (as oppo
    has on this key decision.
 
 <div class="row">
-  <div class="col-5">
+  <div class="col-4">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
-      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded z-depth-5" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/microenvironment.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
+      {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="tissue microenvironment dynamics" class="img-fluid rounded" %}
     </div>
-    <div class="col-7">
+    <div class="col-8">
       Using quantitative image analysis, I analyzed how the dividing cell's morphology
       as well as the tissue microenvironment surrounding it changed over time. Then,
       using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
@@ -110,7 +111,7 @@ at any given time. However, it was unclear how much influence cell size (as oppo
   </div>
   <div class="col-7">
     My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
-    reveal that _only_ cell volume has any significant predictive power. In fact, a
+    reveal that <i>only</i> cell volume has any significant predictive power. In fact, a
     simplified model using cell volume alone performed nearly
     as well as the full model that had access to the full cell and microenvironment
     features combined, meaning that G1 and post-G1-phases are separable by a single
