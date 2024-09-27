@@ -117,8 +117,7 @@ key decision, compared to the slew of other environmental signals and changes th
     My models predict G1/S transition with ~90% accuracy. Surprisingly, these models
     reveal that <i>only</i> cell volume has any significant predictive power. In fact, a
     simplified model using cell volume alone performed nearly
-    as well as the full model that had access to the full cell and microenvironment
-    features combined, meaning that G1 and post-G1-phases are separable by a single
+    as well as the full model, meaning that G1 and post-G1-phases are separable by a single
     number: <b>a cell size threshold</b>.
     <br>
     <br>
