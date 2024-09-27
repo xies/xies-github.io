@@ -81,18 +81,16 @@ and divide in the living mouse skin.
 ## The G1/S transition happens at an autonomously-encoded cell size threshold
 
 Clearly, cell size is influencing whether skin stem cells _in vivo_ enter S phase or not
-at any given time. However, it was unclear how much influence cell size (as opposed to a slew
-   of other environmental signals and changes these stem cells experience every day)
-   has on this key decision.
+at any given time. However, it was unclear how much influence cell size has on this
+key decision, compared to the slew of other environmental signals and changes these stem cells experience every day.
 
-   Using quantitative image analysis, I analyzed how the dividing cell's morphology
-   as well as the tissue microenvironment surrounding it changed over time. Then,
-   using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
-   built statistical models to isolate which feature can predict whether cells will enter
-   the G1/S transition. {% cite xie_g1s_2024 %}
+ Using quantitative image analysis, I analyzed how the dividing cell's morphology
+ as well as the tissue microenvironment surrounding it changed over time. Then,
+ using this rich set of information of <u>cell and microenvrionment morphometrics</u>, I
+ built statistical models to isolate which feature can predict whether cells will enter
+ the G1/S transition. {% cite xie_g1s_2024 %}
 
 <div class="row">
-  <div class ="col"></div>
   <div class="col">
       {% include figure.liquid loading="eager" path="assets/img/skin/cell_intrinsic.png" title="cell morphology" class="img-fluid rounded z-depth-5" %}
   </div>
@@ -101,7 +99,7 @@ at any given time. However, it was unclear how much influence cell size (as oppo
   </div>
 </div>
 <div class='row'>
-  <div class='col-md-auto'>
+  <div class='col-md-3'>
       {% include figure.liquid loading="eager" path="assets/img/skin/model_schematic.png" title="modeling G1/S transition" class="img-fluid rounded" %}
   </div>
 </div>
