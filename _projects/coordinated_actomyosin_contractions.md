@@ -21,11 +21,6 @@ These actin-myosin contractions are _pulsatile_, meaning they occur in discrete
 steps, driven by the phosphorylation dynamics of myosin; each pulse of myosin activation
 leads to a discrete constriction of the cell apical surface.
 
-<div class='row'>
-  <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
-  </div>
-</div>
 <br>
 <br>
 <br>
@@ -35,6 +30,19 @@ leads to a discrete constriction of the cell apical surface.
 I became interested in how a large, mechanically coupled sheet of epithelial cells
 coordinate these discrete contraction events in a way that eventually propagates
 tissue tension across a millimeter in length.
+<div class='row'>
+
+I built computational methods to extract when and where these contractions occurred
+in the embryo, using a combination of image analysis and time-series analysis. {% cite xie_intracellular_2015 %}
+<div class='col'>
+  {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
+</div>
+</div>
+
+Then, using machine learning, Monte Carlo methods, and spatial statistical analysis,
+I found that neighboring pulses are coordinated within the epithelium. Cells that
+are next to contractions are more likely to mount a contraction of their own. Contractions
+that are next to other contractions are also more likely to be irreversible.
 
 <div class='row'>
   <div class='col'>
@@ -42,13 +50,7 @@ tissue tension across a millimeter in length.
   </div>
 </div>
 
-I built computational methods to extract when and where these contractions occurred
-in the embryo, using a combination of image analysis and time-series analysis. {% cite xie_intracellular_2015 %}
 
-Then, using machine learning, Monte Carlo methods, and spatial statistical analysis,
-I found that neighboring pulses are coordinated within the epithelium. Cells that
-are next to contractions are more likely to mount a contraction of their own. Contractions
-that are next to other contractions are also more likely to be irreversible.
 <br>
 <br>
 <br>
