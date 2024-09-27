@@ -45,7 +45,7 @@ cell size behaviors, and it was argued that for metazoan cells, the coordination
 between cell growth and cell cycle mainly occurred at the _signaling_ level, and was
 not autonomous to the cell.
 
-<u>We knew next to nothing about cells _in vivo_, however</u>.
+<u>We knew next to nothing about cells <i>in vivo</i>, however</u>.
 Therefore, I developed an experimental system experimental system in which I can
 study cell size homeostasis in an _in vivo_ animal,
 using [intravital imaging](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/) to directly observe how single cells grow and divide in the living mouse skin, in 4D.
