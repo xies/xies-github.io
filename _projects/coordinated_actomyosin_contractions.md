@@ -23,7 +23,7 @@ leads to a discrete constriction of the cell apical surface.
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulses.png" title="imaging a mouse's skin" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/venral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
   </div>
 </div>
 <br>
@@ -38,7 +38,7 @@ tissue tension across a millimeter in length.
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulsed_contractions_full.gif" title="imaging a mouse's skin" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulsed_contractions_full.gif" title="coordinating pulses" class="img-fluid rounded" %}
   </div>
 </div>
 
@@ -75,7 +75,7 @@ in cell size and ensures robust morphogenesis. {% cite xie_loss_2016 %}
 
 <div class='row'>
   <div class='col'>
-    {% include figure.liquid loading="eager" path="cta_buffering" title="imaging a mouse's skin" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="publication_preview/cta_buffering.png" title="cta" class="img-fluid rounded" %}
   </div>
 </div>
 <br>

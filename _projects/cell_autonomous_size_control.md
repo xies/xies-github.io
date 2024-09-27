@@ -10,7 +10,7 @@ toc:
   sidebar: top
 ---
 
-<b>This work was built on my methods work on [analzying 4D single cell dynamics in a living moouse](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/).</b>
+<b>This work was built on my methods work on [analyzing 4D single cell dynamics in a living mouse](https://xies.github.io/projects/4d_single_cell_in_vivo_imaging/).</b>
 
 ## Why study cell size?
 
