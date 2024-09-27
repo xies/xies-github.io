@@ -30,13 +30,14 @@ leads to a discrete constriction of the cell apical surface.
 I became interested in how a large, mechanically coupled sheet of epithelial cells
 coordinate these discrete contraction events in a way that eventually propagates
 tissue tension across a millimeter in length.
-<div class='row'>
 
 I built computational methods to extract when and where these contractions occurred
 in the embryo, using a combination of image analysis and time-series analysis. {% cite xie_intracellular_2015 %}
-<div class='col'>
-  {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
-</div>
+
+<div class='row'>
+  <div class='col'>
+    {% include figure.liquid loading="eager" path="assets/img/ventral_furrow/pulses.png" title="pulse finding" class="img-fluid rounded" %}
+  </div>
 </div>
 
 Then, using machine learning, Monte Carlo methods, and spatial statistical analysis,
