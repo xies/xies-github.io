@@ -1,7 +1,7 @@
 ---
 layout: page
-title: coordination of actin-myosin contractions
-description: How do cells coherently generate force to bring about tissue-level folding?
+title: Coordination of actin-myosin contractions
+description: How does a thousand cells coherently generate force to bring about tissue-level folding?
 img: assets/img/publication_preview/pulsed_contractions.gif
 importance: 3
 category: science
