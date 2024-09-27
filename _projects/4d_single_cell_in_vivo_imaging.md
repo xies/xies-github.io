@@ -10,7 +10,7 @@ toc:
   sidebar: top
 ---
 
-This work was the methodological basis of my work on [mammalian cell size homeostasis](https://xies.github.io/projects/cell_autonomous_size_control/).
+This work provides the methods to analyze [mammalian cell size homeostasis](https://xies.github.io/projects/cell_autonomous_size_control/).
 
 In order to study the _dynamics_ of cell growth and cell cycle progression in an adult animal,
 I developed an experimental system to directly observe and track hundreds of single cells in a living mouse,
